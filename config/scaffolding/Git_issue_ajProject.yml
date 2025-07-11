@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/ananya-jai-anand
   gitUsername: ananya-jai-anand
   gitBranch: main
+services:
+- serviceName: project.git_issue_aj.integrations:newtry
+  packages:
+  - name: Git_issue_ajProject
+    version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2070
